@@ -1,0 +1,20 @@
+pathes:
+  images:
+    currency_name: images/currency_name.png
+    home_page: images/home_page.png
+
+bot:
+  bot_id: '5870746443:AAEaIbtC8_qBxHJzqnk5LrYZyhfzMt0ieiY'
+
+sql_parameters:
+  host: localhost
+  user: admin
+  password: admin
+  database: bot_database
+
+model_parameters:
+  optimizer: adam
+  loss: mean_squared_error
+  epochs: 10
+  batch_size: 4
+  verbose: 1
